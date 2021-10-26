@@ -1,20 +1,35 @@
 import React from 'react';
 
 export function User({user}) {
+
+    let tipo_documento;
+    if(user.tipodocumento === "a"){
+        tipo_documento = "Tarjeta de identidad";
+    }if(user.tipodocumento === "b"){
+        tipo_documento = "Cedula ciudadana";
+    }if(user.tipodocumento === "c"){
+        tipo_documento = "Pasaporte";
+    }
+
     return (
         <div>
             <li>
-                Nombres: {user.nombres} 
+                <br/>   
+                <b>Roll:</b> {user.roll}
                 <br/>
-                Apellidos: {user.apellidos}
+                <b>Nombres:</b> {user.nombres} 
                 <br/>
-                Tipo de documento: {user.tipodocumento}
+                <b>Apellidos:</b> {user.apellidos}
                 <br/>
-                Numero de documento: {user.numero_documento}
+                <b>Tipo de documento:</b> {tipo_documento}
                 <br/>
-                Correo: {user.correo}
+                <b>Numero de documento:</b> {user.numero_documento}
                 <br/>
-                Telefono: {user.numero_telefonico}
+                <b>Correo:</b> {user.correo}
+                <br/>
+                <b>Telefono: </b>{user.numero_telefonico}
+                <br/>
+                <b>Password: </b>{user.password}
             </li>
             <br/>
         </div>
