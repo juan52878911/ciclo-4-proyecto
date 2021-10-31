@@ -14,6 +14,8 @@ export function User({user}) {
     return (
         <div>
             <li>
+                {/* <br/>   
+                <b>error:</b> {user.error} */}
                 <br/>   
                 <b>Roll:</b> {user.roll}
                 <br/>
