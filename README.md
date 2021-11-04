@@ -1,11 +1,12 @@
-# Servidor (Trueque mental 🧠)
-## Instalacion de dependencias
+# jordan-desarrollo
 
- Debes estar seguro de haber ejecutado este comando en la carpeta raiz del proyecto, donde encuentras las carpetas public, src y archivos package.json
+## Instalar depencencias de node_modules
 ```
-npm i --save 
+npm install
 ```
-## Inicio de Servidor
+
+### inicializar el servidor
 ```
 npm run devbabel
 ```
+
