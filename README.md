@@ -1,3 +1,4 @@
+@@ -1,70 +1,12 @@
 # Ciclo 4 proyecto (Trueque mental 🧠)
 ## Instalacion de dependencias
 
