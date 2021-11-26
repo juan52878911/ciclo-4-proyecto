@@ -34,6 +34,7 @@ body{
     .box1{  
       color:black;
       padding: 50px;
+      padding-bottom: 20px;
       background-color: white;
       border-radius: 100px;
       border: 1px solid black;
@@ -64,11 +65,30 @@ body{
 
     .vermas{
       background-color: darkorange;
+      padding: 6px;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: white;
+    }
+
+    .favorito{
+      background-color:blueviolet;
+      padding: 6px;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: white;
+    }
+
+    .comentarios{
+      padding: 6px;
+      padding-left: 15px;
+      padding-right: 15px;
     }
 
     .box2{
       color:black;
       padding: 50px;
+      padding-bottom: 20px;
       background-color: white;
       border-radius: 100px;
       border: 1px solid black;

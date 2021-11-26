@@ -87,12 +87,12 @@ return (
         <p style={{textAlign:'right'}}>
         <Button class="vermas" custom bsStyle="warning" >Ver más</Button>
           <l>         </l>
-            <Button variant="secondary">
+            <Button class="favorito" variant="secondary">
                 <BsFillBookmarkHeartFill></BsFillBookmarkHeartFill>
                 favorito
             </Button>
             <l>         </l>
-            <Button variant="secondary">
+            <Button class="comentarios" variant="secondary">
             <BsChat></BsChat>
             </Button>
         </p>
@@ -124,14 +124,14 @@ return (
         </p> 
         </div>
         <p style={{textAlign:'right'}}>
-        <Button custom bsStyle="warning" >Ver más</Button>
+        <Button class ="vermas" custom bsStyle="warning" >Ver más</Button>
           <l>         </l>
-            <Button variant="secondary">
+            <Button class="favorito" variant="secondary">
                 <BsFillBookmarkHeartFill></BsFillBookmarkHeartFill>
                 favorito
             </Button>
             <l>         </l>
-            <Button variant="secondary">
+            <Button class="comentarios" variant="secondary">
             <BsChat></BsChat>
             </Button>
         </p>
