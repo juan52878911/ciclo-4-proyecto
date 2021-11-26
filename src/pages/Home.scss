@@ -1,0 +1,114 @@
+$bg-color: #160e31;
+$fg-color: #fff;
+
+body {
+    background-color: $bg-color;
+}
+
+.title {
+    background-color: $fg-color;
+    height: 100vh;
+    width: 110%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        margin: 10px;
+    }
+
+    .title_container {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font-size: 11vh;
+            text-align: center;
+            margin-bottom: 20%;
+            max-width: 600px;
+        }
+
+        h3 {
+            padding: 10px;
+            font-size: 6vh;
+            margin-bottom: 15%;
+            font-style: italic;
+            max-width: 550px;
+        }
+
+        input {
+            color: #fff;
+            font-size: 30px;
+            line-height: 41px;
+
+            border: solid 2px transparent;
+            border-radius: 55px;
+            padding: 1.2vh 2.7vh;
+            background-color: $bg-color;
+            transition: all .2s;
+
+            &:hover {
+                color: black;
+                background-color: $fg-color;
+                border: solid 2px black;
+                box-shadow: 0px 5px 15px rgba(0,0,0,0.55);
+            }
+        }
+    }
+}
+
+.triangle {
+    margin-left: -0.5px;
+    margin-top: -1px;
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+    background-color: $fg-color;
+    min-height: 100px;
+    max-height: 100%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    max-height: 100px;
+
+    input {
+        border-radius: 26.5px;
+        font-size: 24px;
+        line-height: 28px;
+
+        border: solid 2px transparent;
+        border-radius: 55px;
+        padding: 11px 20px;
+
+        &:nth-child(1) {
+            background: #141441;
+            color: #fff;
+            transition: all .2s;
+
+            &:hover {
+                background-color: #fff;
+                color: #000;
+                border: solid #fff 2px;
+                box-shadow: #fffb 0px 5px 15px;
+            }
+        }
+
+        &:nth-child(2) {
+            background: #fff;
+            color: #000;
+            transition: all .2s;
+
+            &:hover {
+                border: solid #fff 2px;
+                box-shadow: #fffb 0px 5px 15px;
+            }
+        }
+    }
+}
