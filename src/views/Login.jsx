@@ -9,7 +9,7 @@ export function Login() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
-    const { login, userToken } = useContext(UserContext);
+    const { login, userToken, loginError } = useContext(UserContext);
 
     // const [localToken, setLocalToken] = useState();
 
@@ -43,6 +43,7 @@ export function Login() {
                         <br />
                         <button type="submit" value="Submit">Submit</button>
                     </form>
+                    <b>{loginError}</b>
                     {/* <h2>User</h2>
                         <ul>
                             <li>Email: {email}</li>

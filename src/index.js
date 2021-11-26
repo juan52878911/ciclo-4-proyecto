@@ -4,6 +4,6 @@ import ReactDOM from "react-dom";
 import App from "./App.jsx"
 
 //axios config
-axios.defaults.baseURL = 'https://trueque-mental-api.herokuapp.com/api';
+axios.defaults.baseURL = 'http://localhost:3100/api';
 
 ReactDOM.render(<App name="juan"/>, document.getElementById("root"));

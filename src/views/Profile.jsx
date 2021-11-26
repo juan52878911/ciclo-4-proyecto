@@ -1,46 +1,30 @@
-import axios from 'axios';
-import React, { useContext, useEffect, useState } from 'react'
+// import axios from 'axios';
+import React, { useContext, useEffect } from 'react'
 import { useHistory } from 'react-router';
-import { ProfileUser } from '../components/ProfileUser';
+import { WelcomeUser } from '../components/User/WelcomeUser';
+import { UserList } from '../components/User/UserList';
 import UserContext from '../data/UserContext';
+import { Chat } from '../components/Chat/Chat';
 
 export function Profile() {
 
-    const { token, getUser, userToken } = useContext(UserContext);
+    const { user, getUser, userToken } = useContext(UserContext);
     const history = useHistory();
 
-    const [user, setUser] = useState();
+    if (!userToken) history.push('/login')
 
     useEffect(() => {
-        if (!userToken) history.push('/login')
-
-        axios.get(
-            `/Usuarios/${userToken?.id}`,
-            {
-                headers: {
-                    "auth-token": token
-                }
-            }
-        )
-            .then(res => {
-                setUser(res.data);
-                // const Usuarios = res.data;
-                // Usuarios ? setUser(Usuarios) : setUser(null) 
-            })
-            .catch(error => console.log(error))
+        getUser(userToken?.id);
     });
 
 
     return (
 
         <div>
-            {() => getUser(userToken.id)}
-            {user
-                ? <div>
-                    <ProfileUser user={user} />
-                </div>
-                : <b>Cargando...</b>}
+            <WelcomeUser user={user} />
+            <UserList/>
             {/* {console.log(user)} */}
+            <Chat user={user}/>
         </div>
     );
 }

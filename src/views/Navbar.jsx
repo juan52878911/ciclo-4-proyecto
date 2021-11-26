@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import UserContext from '../data/UserContext';
 import { useHistory } from 'react-router-dom'
 
@@ -19,14 +19,20 @@ import ListItemIcon from '@mui/material/ListItemIcon'
 import Logout from '@mui/icons-material/Logout'
 import Settings from '@mui/icons-material/Settings'
 import Avatar from '@mui/material/Avatar'
+import IconButton from '@mui/material/IconButton';
 
 //colors
-import { deepPurple } from '@mui/material/colors';
+// import { deepPurple } from '@mui/material/colors';
 
 export function Navbar() {
 
-    const { userToken, logout } = useContext(UserContext);
+    const { user, userToken, logout, getUser } = useContext(UserContext);
     // const history = useHistory();
+
+    
+    useEffect(() => {
+        getUser(userToken?.id);
+    });
 
     const history = useHistory();
 
@@ -47,7 +53,7 @@ export function Navbar() {
     };
 
     return (
-        <AppBar style={{ background: '#2E3B55' }} position="static">
+        <AppBar sx={{backgroundColor:"#0000", box-shadow: none}} position="static">
             <Toolbar>
                 <Typography component="div" sx={{ flexGrow: 1 }}>
                     <Button onClick={() => history.push('/')} color="inherit" sx={{ fontSize: 20 }}>
@@ -57,20 +63,14 @@ export function Navbar() {
                 {userToken
                     ?
                     <div>
-                        <Button
-                            size="large"
-                            aria-label="account of current user"
-                            aria-controls="menu-appbar"
-                            aria-haspopup="true"
+                        <IconButton
                             onClick={handleMenu}
                             color="inherit"
-                            startIcon={<Avatar sx={{ bgcolor: deepPurple[500] }}>{userToken?.name.substr(0, 1)}</Avatar>}
                         >
-                            {" " + userToken?.name}
-                            {/* <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                                //{" " + userToken?.name}
-                            </Typography> */}
-                        </Button>
+                            <Avatar sx={{ bgcolor: user?.color }}>
+                                {user?.nombres.substr(0, 1)}
+                            </Avatar>
+                        </IconButton>
                         <Menu
                             id="menu-appbar"
                             anchorEl={anchorEl}
@@ -112,7 +112,7 @@ export function Navbar() {
                                 }
                             }}>
                             <MenuItem onClick={() => { history.push('/profile'); setAnchorEl(null) }}>
-                                <Avatar sx={{ bgcolor: deepPurple[500] }}>{userToken?.name.substr(0, 1)}</Avatar> {userToken?.name}
+                                <Avatar sx={{ bgcolor: user?.color }}>{userToken?.name.substr(0, 1)}</Avatar> {userToken?.name}
                             </MenuItem>
                             <Divider />
                             <MenuItem>
