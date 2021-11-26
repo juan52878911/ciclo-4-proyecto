@@ -44,7 +44,7 @@ return (
 <Container>
   <Row>
     <Col> 
-      <h1 style={{textAlign:'center', background:'#f3dbee'}}>
+      <h1 style={{textAlign:'center', background:'##e5d3ec'}}>
         ¿Cómo funciona? Perfectamente para tí 
       </h1>
     </Col>
@@ -76,14 +76,16 @@ return (
           <BsPersonCircle></BsPersonCircle> Posteado por (usuario):
         </p>
         </div>
+        <div class="quieroaprenderyenseñar">
         <p>
         Quiero aprender:
         </p>
         <p>
         Enseño:
         </p> 
+        </div>
         <p style={{textAlign:'right'}}>
-        <Button variant="warning">Ver más</Button>{''}
+        <Button class="vermas" custom bsStyle="warning" >Ver más</Button>
           <l>         </l>
             <Button variant="secondary">
                 <BsFillBookmarkHeartFill></BsFillBookmarkHeartFill>
@@ -96,8 +98,49 @@ return (
         </p>
         </div></div>
     </Col>
-    
-  </Row>
+    </Row>
+
+    <Row>
+    <Col>
+    <div class="external1"><div class="box2">
+        <div class="textoderecha">
+        <p className="d-flex justify-content-end" >
+        widget hora de publicación
+        </p>
+        </div>
+        <p>
+        </p>
+        <div class="divp3">
+        <p style={{color:'blue', fontSize:"lg"}}>
+          <BsPersonCircle></BsPersonCircle> Posteado por (usuario):
+        </p>
+        </div>
+        <div class="quieroaprenderyenseñar">
+        <p>
+        Quiero aprender:
+        </p>
+        <p>
+        Enseño:
+        </p> 
+        </div>
+        <p style={{textAlign:'right'}}>
+        <Button custom bsStyle="warning" >Ver más</Button>
+          <l>         </l>
+            <Button variant="secondary">
+                <BsFillBookmarkHeartFill></BsFillBookmarkHeartFill>
+                favorito
+            </Button>
+            <l>         </l>
+            <Button variant="secondary">
+            <BsChat></BsChat>
+            </Button>
+        </p>
+        </div></div>
+    </Col>
+    </Row>  
+
+
+
 </Container>
 );
 }
