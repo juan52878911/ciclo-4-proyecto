@@ -1,0 +1,53 @@
+body #Home.jsx{background-color:white!important;}
+
+body{
+  background-color: #e5d3ec;
+  margin: 10px;
+}
+
+
+
+  h1 {
+    color:black;
+    background-color: white;
+    padding: 50px;
+  }
+  
+  
+ 
+    p1 {
+      color:black;
+      background-color: white;
+      border: 1px solid black;
+      margin: 0px;
+      margin-bottom: 15;
+      padding: 15px;
+      border-radius: 100px;
+    }
+
+
+
+
+      
+    .box1{  
+      color:black;
+      padding: 50px;
+      background-color: white;
+      border-radius: 100px;
+      border: 1px solid black;
+      overflow: hidden;
+      margin-top: 10px;
+    }
+
+    p{
+      font-weight: bold;
+      text-align: right;
+      justify-content: right;
+      align-items: end;
+      align-content: end;
+      align-self: end;
+    }
+
+    .divp3{
+      font-size:large;
+    }

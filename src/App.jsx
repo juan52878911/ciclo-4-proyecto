@@ -11,6 +11,7 @@ import { Navbar } from './views/Navbar';
 import { Home } from './views/Home'
 import { Login } from './views/Login'
 import { Signin } from './views/Signin'
+import { LoguedHome } from './views/LoguedHome';
 import { UserProvider } from './data/UserContext';
 import { Profile } from './views/Profile';
 
@@ -27,6 +28,9 @@ export default function App() {
                     </Route>
                     <Route path="/login">
                         <Login />
+                    </Route>
+                    <Route path="/loguedhome">
+                        <LoguedHome />
                     </Route>
                     <Route path="/signin">
                         <Signin />
