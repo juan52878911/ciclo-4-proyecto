@@ -53,7 +53,7 @@ export function Navbar() {
     };
 
     return (
-        <AppBar sx={{backgroundColor:"#0000", box-shadow: none}} position="static">
+        <AppBar position="static">
             <Toolbar>
                 <Typography component="div" sx={{ flexGrow: 1 }}>
                     <Button onClick={() => history.push('/')} color="inherit" sx={{ fontSize: 20 }}>
