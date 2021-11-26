@@ -37,9 +37,11 @@ body{
       border: 1px solid black;
       overflow: hidden;
       margin-top: 10px;
+      margin-left: 50px;
+      margin-right: 50px;
     }
 
-    p{
+    .textoderecha{
       font-weight: bold;
       text-align: right;
       justify-content: right;
@@ -49,5 +51,5 @@ body{
     }
 
     .divp3{
-      font-size:large;
+      font-size:x-large;
     }

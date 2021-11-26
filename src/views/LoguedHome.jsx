@@ -64,21 +64,23 @@ return (
   <Row>
     <Col>
     <div class="external"><div class="box1">
+        <div class="textoderecha">
         <p className="d-flex justify-content-end" >
         widget hora de publicación
         </p>
+        </div>
         <p>
         </p>
         <div class="divp3">
-        <p3 style={{color:'blue', fontSize:"lg"}}>
+        <p style={{color:'blue', fontSize:"lg"}}>
           <BsPersonCircle></BsPersonCircle> Posteado por (usuario):
-        </p3>
+        </p>
         </div>
         <p>
-        Quiero aprender ():
+        Quiero aprender:
         </p>
         <p>
-        Enseño():
+        Enseño:
         </p> 
         <p style={{textAlign:'right'}}>
         <Button variant="warning">Ver más</Button>{''}
