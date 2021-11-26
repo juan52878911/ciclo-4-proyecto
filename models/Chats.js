@@ -7,14 +7,7 @@ const chatSchema = new Schema({
         type: String,
         required: true
     },
-    receptor: {
-        type: String,
-        required: true
-    },
-    emisor: {
-        type: String,
-        required: true
-    },
+    participantes: [],
     mensajes: []
 });
 

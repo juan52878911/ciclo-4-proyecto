@@ -56,8 +56,9 @@ const usuarioShema = new Schema({
         type: Date,
         default: Date.now
     },
-    usuarios_favoritos: [],
     chats: [],
+    conocimientos: [],
+    busqueda: [],
     conectado: {
         type: Boolean,
         default: false
