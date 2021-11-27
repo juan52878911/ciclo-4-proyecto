@@ -1,0 +1,118 @@
+body #Home.jsx{background-color:white!important;}
+
+body{
+  background-color: #e5d3ec;
+  margin: 10px;
+}
+
+  .comofunciona{
+    background-color: #e5d3ec;
+  }
+
+  h1 {
+    color:black;
+    background-color: #e5d3ec;
+    padding: 50px;
+  }
+  
+  
+ 
+    p1 {
+      color:black;
+      background-color: white;
+      border: 1px solid black;
+      margin: 0px;
+      margin-bottom: 15;
+      padding: 15px;
+      border-radius: 100px;
+    }
+
+
+
+
+      
+    .box1{  
+      color:black;
+      padding: 50px;
+      padding-bottom: 20px;
+      background-color: white;
+      border-radius: 100px;
+      border: 1px solid black;
+      overflow: hidden;
+      margin-top: 10px;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    .textoderecha{
+      font-weight: bold;
+      text-align: right;
+      justify-content: right;
+      align-items: end;
+      align-content: end;
+      align-self: end;
+    }
+
+    .divp3{
+      font-size:x-large;
+    }
+
+    .quieroaprenderyenseñar{
+      font-weight: bold;
+      padding-left: 30px;
+      font-size: large;
+    }
+
+    .vermas{
+      background-color: darkorange;
+      padding: 6px;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: white;
+    }
+
+    .favorito{
+      background-color:blueviolet;
+      padding: 6px;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: white;
+    }
+
+    .comentarios{
+      padding: 6px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .box2{
+      color:black;
+      padding: 50px;
+      padding-bottom: 20px;
+      background-color: white;
+      border-radius: 100px;
+      border: 1px solid black;
+      overflow: hidden;
+      margin-top: 50px;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    .textoderecha{
+      font-weight: bold;
+      text-align: right;
+      justify-content: right;
+      align-items: end;
+      align-content: end;
+      align-self: end;
+    }
+
+    .divp3{
+      font-size:x-large;
+    }
+
+    .quieroaprenderyenseñar{
+      font-weight: bold;
+      padding-left: 30px;
+      font-size: large;
+    }
