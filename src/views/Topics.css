@@ -22,21 +22,16 @@
       color: white;
       background-color:darkgreen;
       margin: 0px;
-      margin-bottom: 15;
-      padding: 15px;
-      border-radius: 100px;
+      margin-top: 150px;
+      margin-bottom: 70px;
+      margin-left: 50px;
+      margin-right: 1000px;
+      padding: 20px;
+      border-radius: 30px;
+      text-align: center;
     }
 
-    .external1{
-        color:white;
-        background-color:darkgreen;
-        padding: 20px;
-        border-radius:30px;
-        margin-top: 150px;
-        margin-left: 50px;
-        margin-right: 1000px;
-        text-align: center;
-    }
+    
 
     .icono1{
         margin-bottom: 0px;

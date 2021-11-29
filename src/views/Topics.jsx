@@ -47,7 +47,7 @@ class handleChangeComplete extends React.Component {
       //botón de ver más debe llevar a perfil del otro usuario
   
   return ( 
-    <Container>
+    <Container style={{backgroundColor:"black"}}>
       <Row>
         <Col>
         <h1 class="menudeconsulta" style={{textAlign:'center'}}>
@@ -69,12 +69,10 @@ class handleChangeComplete extends React.Component {
 
 
       <Row>
-          <Col class="external1">
-            <div class="caja1">
+          <Col class="caja1">
                 <p>
                     <BsPaletteFill class={"icono1"} size={"60"} style={{textAlign:'center'}}></BsPaletteFill>
                  </p>
-            </div>
             <div class="tema1">
                  <h3 style={{textAlign:'center', fontSize:"lg"}}>
                     Arte
