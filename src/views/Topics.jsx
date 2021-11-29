@@ -19,36 +19,18 @@ import { BsAt } from "react-icons/bs";
 import { AiFillExperiment } from "react-icons/ai";
 import {BsPersonCircle} from "react-icons/bs";
 import '../views/Topics.css';
-import { Block } from '@mui/icons-material';
+import { Block, LabelImportant } from '@mui/icons-material';
 import { textAlign } from '@mui/system';
 
-class handleChangeComplete extends React.Component {
-    state = {
-      background: '#f3dbee',
-    };
-  
-    handleChangeComplete = (color) => {
-      this.setState({ background: color.hex });
-    };
-  
-    render() {
-      //require("./LoguedHome.css"); 
-      return (
-       <SketchPicker 
-        color={ this.state.background }
-          onChangeComplete={ this.handleChangeComplete }
-      />
-    );
-    }
-  }
-  
+
   export function Topics() {
   
       //botón de ver más debe llevar a perfil del otro usuario
   
-  return ( 
-    <Container style={{backgroundColor:"black"}}>
-      <Row>
+  return (
+    <div class="Todalpagina" style={{forcedColorAdjust:"black"}}> 
+    <Container class='totalpagina' style={{backgroundColor:"black"}}>
+      <Row style={{backgroundColor:"black"}}>
         <Col>
         <h1 class="menudeconsulta" style={{textAlign:'center'}}>
           Menú de consulta: 
@@ -67,9 +49,9 @@ class handleChangeComplete extends React.Component {
 
 
 
-      <div class="primerafila" style={{display:'inline-flex', float:"left", width:"10px"}}>
-      <Row>
-          <Col class="externo1">
+      <div class="primerafila" style={{display:'inline-flex', float:"left", width:"10px", backgroundColor:'black'}}>
+      <Row style={{backgroundColor:"black"}}>
+          <Col class="externo1" style={{backgroundColor:"black"}}>
           <div class="caja1">
                 <p>
                     <BsPaletteFill class={"icono1"} size={"60"} style={{textAlign:'center'}}></BsPaletteFill>
@@ -90,7 +72,7 @@ class handleChangeComplete extends React.Component {
 
 
 
-      <Row>
+      <Row style={{backgroundColor:"black"}}>
           <Col class="externo2">
             <div class="caja2">
                 <p>
@@ -111,7 +93,7 @@ class handleChangeComplete extends React.Component {
       </Row>
 
 
-      <Row>
+      <Row style={{backgroundColor:"black"}}>
           <Col class="externo3">
             <div class="caja3">
                 <p>
@@ -134,9 +116,9 @@ class handleChangeComplete extends React.Component {
 
 
 
-      <div class="segundafila" style={{display:'inline-flex', float:"left", width:"10px"}}>
+      <div class="segundafila" style={{display:'inline-flex', float:"left", width:"10px", backgroundColor:'black'}}>
       <Row>
-          <Col class="externo4">
+          <Col class="externo4" style={{backgroundColor:"black"}}>
               <div class="caja4">
                 <p>
                     <BsEggFried class={"icono4"} size={"60"} style={{textAlign:'center'}}></BsEggFried>
@@ -158,7 +140,7 @@ class handleChangeComplete extends React.Component {
 
 
       <Row>
-          <Col class="externo5">
+          <Col class="externo5" style={{backgroundColor:"black"}}>
             <div class="caja5">
                 <p>
                     <BsScissors class={"icono5"} size={"60"} style={{textAlign:'center'}}></BsScissors>
@@ -180,7 +162,7 @@ class handleChangeComplete extends React.Component {
 
 
       <Row>
-          <Col class="externo6">
+          <Col class="externo6" style={{backgroundColor:"black"}}>
             <div class="caja6">
                 <p>
                     <BsKeyFill class={"icono6"} size={"60"} style={{textAlign:'center'}}></BsKeyFill>
@@ -200,9 +182,9 @@ class handleChangeComplete extends React.Component {
       </Row>
       </div>
 
-      
+      <div class="tercerafila" style={{display:'inline-flex', float:"left", width:"10px"}}>
       <Row>
-          <Col class="externo7">
+          <Col class="externo7" style={{backgroundColor:"black"}}>
             <div class="caja7">
                 <p>
                     <BsVectorPen class={"icono7"} size={"60"} style={{textAlign:'center'}}></BsVectorPen>
@@ -224,7 +206,7 @@ class handleChangeComplete extends React.Component {
 
 
       <Row>
-          <Col class="externo8">
+          <Col class="externo8" style={{backgroundColor:"black"}}>
             <div class="caja8">
                 <p>
                     <BsMusicNote class={"icono8"} size={"60"} style={{textAlign:'center'}}></BsMusicNote>
@@ -247,7 +229,7 @@ class handleChangeComplete extends React.Component {
 
 
       <Row>
-          <Col class="externo9">
+          <Col class="externo9" style={{backgroundColor:"black"}}>
             <div class="caja9">
                 <p>
                     <BsAt class={"icono9"} size={"60"} style={{textAlign:'center'}}></BsAt>
@@ -265,6 +247,8 @@ class handleChangeComplete extends React.Component {
             </div>
             </Col>
       </Row>
+      </div>
     </Container>
+    </div>
     )
     }

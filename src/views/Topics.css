@@ -1,5 +1,20 @@
-
+ .todalpagina{
+     background-color: black!important;
+ }
  
+
+.Totalpagina{
+  background-color: black!important;  
+}
+
+ .colorfondo1{
+     background-color: black!important;
+ }
+ 
+ 
+ .colorfondo{
+     background-color: black!important;
+ }
  
  .menudeconsulta {
     color:white;
@@ -20,7 +35,14 @@
  
     .primerafila{
         align-self: center;
+        background-color: black!important;
     }
+
+
+    .externo1{
+        background-color: black;
+    }
+
 
     .caja1 {
       color: white;
@@ -118,6 +140,7 @@
 
       .segundafila{
         align-self: center;
+        background-color:black!important;
     }
 
 
@@ -129,7 +152,7 @@
         margin: 0px;
         margin-top: 550px;
         margin-bottom: 70px;
-        margin-left: 170px;
+        margin-left: 160px;
         margin-right: 10px;
         padding: 20px;
         border-radius: 30px;
@@ -162,7 +185,7 @@
         margin: 0px;
         margin-top: 550px;
         margin-bottom: 70px;
-        margin-left: 45px;
+        margin-left: 50px;
         margin-right: 10px;
         padding: 20px;
         border-radius: 30px;
@@ -217,15 +240,26 @@
 
 
 
+      .tercerafila{
+        background-color:black!important;
+        margin-left:0px;
+        margin-right: 50px;
+      }
+
+      .externo1{
+        background-color: black;
+    }
+
 
       .caja7 {
         color: white;
         background-color:darksalmon;
-        margin: 0px;
-        margin-top: 1000px;
+        height:300px;
+        width:300px;
+        margin-top: 950px;
         margin-bottom: 70px;
-        margin-left: 50px;
-        margin-right: 1000px;
+        margin-left: 150px;
+        margin-right: 10px;
         padding: 20px;
         border-radius: 30px;
         text-align: center;
@@ -251,10 +285,12 @@
         color: white;
         background-color:rgba(128, 255, 0, 0.897);
         margin: 0px;
-        margin-top: 150px;
+        height:300px;
+        width:300px;
+        margin-top: 950px;
         margin-bottom: 70px;
         margin-left: 50px;
-        margin-right: 1000px;
+        margin-right: 10px;
         padding: 20px;
         border-radius: 30px;
         text-align: center;
@@ -279,25 +315,16 @@
       .caja9 {
         color: white;
         background-color:rgba(105, 105, 105, 0.534);
+        height:300px;
+        width:300px;
         margin: 0px;
-        margin-top: 150px;
+        margin-top: 950px;
         margin-bottom: 70px;
         margin-left: 50px;
-        margin-right: 1000px;
+        margin-right: 10px;
         padding: 20px;
         border-radius: 30px;
         text-align: center;
-      }
-  
-      .external9{
-          color:white;
-          background-color:darkgreen;
-          padding: 20px;
-          border-radius:30px;
-          margin-top: 150px;
-          margin-left: 50px;
-          margin-right: 1000px;
-          text-align: center;
       }
   
       .icono9{
