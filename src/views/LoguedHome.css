@@ -7,17 +7,12 @@ body{
 
   .comofunciona{
     background-color: #e5d3ec;
-  }
-
-  h1 {
-    color:black;
-    background-color: #e5d3ec;
-    padding: 50px;
+    color: black;
   }
   
   
  
-    p1 {
+  .numerodeposts {
       color:black;
       background-color: white;
       border: 1px solid black;
@@ -26,6 +21,8 @@ body{
       padding: 15px;
       border-radius: 100px;
     }
+
+    
 
 
 

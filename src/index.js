@@ -3,7 +3,7 @@ import axios from 'axios';
 import ReactDOM from "react-dom";
 import App from "./App.jsx"
 import "./views/LoguedHome.css";
-
+import "./views/LoguedHome.css";
 
 import "./views/LoguedHome.css"
 //axios config

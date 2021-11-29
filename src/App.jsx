@@ -12,6 +12,7 @@ import { Home } from './views/Home'
 import { Login } from './views/Login'
 import { Signin } from './views/Signin'
 import { LoguedHome } from './views/LoguedHome';
+import { Topics } from './views/Topics';
 import { UserProvider } from './data/UserContext';
 import { Profile } from './views/Profile';
 
@@ -37,6 +38,9 @@ export default function App() {
                     </Route>
                     <Route path="/profile">
                         <Profile/>
+                    </Route>
+                    <Route path="/topics">
+                        <Topics/>
                     </Route>
                 </Switch>
             </Router>

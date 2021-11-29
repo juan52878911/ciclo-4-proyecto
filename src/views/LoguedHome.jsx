@@ -44,7 +44,7 @@ return (
 <Container>
   <Row>
     <Col> 
-      <h1 style={{textAlign:'center', background:'##e5d3ec'}}>
+      <h1 class="comofunciona" style={{textAlign:'center', background:'##e5d3ec'}}>
         ¿Cómo funciona? Perfectamente para tí 
       </h1>
     </Col>
@@ -53,7 +53,7 @@ return (
   <Row style= {{borderColor:"black", marginRight:"50px", marginLeft:"50px", marginBottom:"0px", paddingRight:"50px", paddingLeft:"50px", borderRadius:"100px"}}>
     <Col>
     <div class="boxa" style={{marginBottom:"30px"}}>
-        <p1 style={{background:'white'}}>
+        <p1 class="numerodeposts" style={{background:'white'}}>
           Número de posts
         </p1>
     </div>
@@ -63,7 +63,7 @@ return (
 
   <Row>
     <Col>
-    <div class="external"><div class="box1">
+    <div class="externo1"><div class="box1">
         <div class="textoderecha">
         <p className="d-flex justify-content-end" >
         widget hora de publicación
@@ -102,7 +102,7 @@ return (
 
     <Row>
     <Col>
-    <div class="external1"><div class="box2">
+    <div class="externo1"><div class="box2">
         <div class="textoderecha">
         <p className="d-flex justify-content-end" >
         widget hora de publicación

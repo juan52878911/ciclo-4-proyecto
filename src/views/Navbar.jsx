@@ -133,7 +133,8 @@ export function Navbar() {
                     <Stack direction="row" spacing={2}>
                         <Button onClick={() => history.push('/login')} color="inherit">Ingresar</Button>
                         <Button onClick={() => history.push('/signin')} variant="contained" color="warning">Registrarse</Button>
-                        <Button onClick={() => history.push('/loguedHome')} color="info" >Start Point</Button>
+                        <Button onClick={() => history.push('/loguedHome')} variant="contained" color="secondary">Foro</Button>
+                        <Button onClick={() => history.push('/Topics')} variant= "contained" color="success">búsqueda de temas</Button>
                     </Stack>
                 }
             </Toolbar>

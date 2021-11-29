@@ -1,0 +1,428 @@
+
+  .menudeconsulta {
+    color:white;
+    background-color:black;
+    padding: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+  }
+  
+  .categoriastematicas {
+    color:white;
+    background-color:black;
+    padding: 50px;
+    padding-top: 0px;
+    margin-top: 15px;
+  }
+  
+ 
+    .caja1 {
+      color: white;
+      background-color:darkgreen;
+      margin: 0px;
+      margin-bottom: 15;
+      padding: 15px;
+      border-radius: 100px;
+    }
+
+    .external1{
+        color:white;
+        background-color:darkgreen;
+        padding: 20px;
+        border-radius:30px;
+        margin-top: 150px;
+        margin-left: 50px;
+        margin-right: 1000px;
+        text-align: center;
+    }
+
+    .icono1{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .tema1{
+       color: white;
+       margin-top: 0px; 
+       margin-top: 0px;
+    }
+
+
+
+
+
+    .caja2 {
+        color: white;
+        background-color:deepskyblue;
+        margin: 0px;
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 100px;
+      }
+  
+      .external2{
+          color:white;
+          background-color:deepskyblue;
+          padding: 20px;
+          border-radius:30px;
+          margin-top: 150px;
+          margin-left: 50px;
+          margin-right: 1000px;
+          text-align: center;
+      }
+  
+      .icono2{
+          margin-bottom: 0px;
+          padding-bottom: 0px;
+      }
+  
+      .tema2{
+         color: white;
+         margin-top: 0px; 
+         margin-top: 0px;
+      }
+
+
+
+
+
+      .caja3 {
+        color: white;
+        background-color:darkorange;
+        margin: 0px;
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 100px;
+      }
+  
+      .external3{
+          color:white;
+          background-color:darkorange;
+          padding: 20px;
+          border-radius:30px;
+          margin-top: 150px;
+          margin-left: 50px;
+          margin-right: 1000px;
+          text-align: center;
+      }
+  
+      .icono3{
+          margin-bottom: 0px;
+          padding-bottom: 0px;
+      }
+  
+      .tema3{
+         color: white;
+         margin-top: 0px; 
+         margin-top: 0px;
+      }
+
+
+
+
+      .caja4 {
+        color: white;
+        background-color:blue;
+        margin: 0px;
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 100px;
+      }
+  
+      .external4{
+          color:white;
+          background-color:blue;
+          padding: 20px;
+          border-radius:30px;
+          margin-top: 150px;
+          margin-left: 50px;
+          margin-right: 1000px;
+          text-align: center;
+      }
+  
+      .icono4{
+          margin-bottom: 0px;
+          padding-bottom: 0px;
+      }
+  
+      .tema4{
+         color: white;
+         margin-top: 0px; 
+         margin-top: 0px;
+      }
+
+
+
+
+
+
+
+
+      .caja5 {
+        color: white;
+        background-color:deeppink;
+        margin: 0px;
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 100px;
+      }
+  
+      .external5{
+          color:white;
+          background-color:deeppink;
+          padding: 20px;
+          border-radius:30px;
+          margin-top: 150px;
+          margin-left: 50px;
+          margin-right: 1000px;
+          text-align: center;
+      }
+  
+      .icono5{
+          margin-bottom: 0px;
+          padding-bottom: 0px;
+      }
+  
+      .tema5{
+         color: white;
+         margin-top: 0px; 
+         margin-top: 0px;
+      }
+
+
+
+
+
+
+
+      .caja6 {
+        color: white;
+        background-color:rgb(190, 5, 134);
+        margin: 0px;
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 100px;
+      }
+  
+      .external6{
+          color:white;
+          background-color:rgb(190, 5, 134);
+          padding: 20px;
+          border-radius:30px;
+          margin-top: 150px;
+          margin-left: 50px;
+          margin-right: 1000px;
+          text-align: center;
+      }
+  
+      .icono6{
+          margin-bottom: 0px;
+          padding-bottom: 0px;
+      }
+  
+      .tema6{
+         color: white;
+         margin-top: 0px; 
+         margin-top: 0px;
+      }
+
+
+
+
+
+
+
+      .caja7 {
+        color: white;
+        background-color:darksalmon;
+        margin: 0px;
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 100px;
+      }
+  
+      .external7{
+          color:white;
+          background-color:darksalmon;
+          padding: 20px;
+          border-radius:30px;
+          margin-top: 150px;
+          margin-left: 50px;
+          margin-right: 1000px;
+          text-align: center;
+      }
+  
+      .icono7{
+          margin-bottom: 0px;
+          padding-bottom: 0px;
+      }
+  
+      .tema7{
+         color: white;
+         margin-top: 0px; 
+         margin-top: 0px;
+      }
+
+
+
+
+
+
+      .caja8 {
+        color: white;
+        margin: 0px;
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 100px;
+      }
+  
+      .external8{
+          color:white;
+          background-color:rgba(128, 255, 0, 0.815);
+          padding: 20px;
+          border-radius:30px;
+          margin-top: 150px;
+          margin-left: 50px;
+          margin-right: 1000px;
+          text-align: center;
+      }
+  
+      .icono8{
+          margin-bottom: 0px;
+          padding-bottom: 0px;
+      }
+  
+      .tema8{
+         color: white;
+         margin-top: 0px; 
+         margin-top: 0px;
+      }
+
+
+
+
+
+
+      .caja9 {
+        color: white;
+        margin: 0px;
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 100px;
+      }
+  
+      .external9{
+          color:white;
+          background-color:darkgreen;
+          padding: 20px;
+          border-radius:30px;
+          margin-top: 150px;
+          margin-left: 50px;
+          margin-right: 1000px;
+          text-align: center;
+      }
+  
+      .icono9{
+          margin-bottom: 0px;
+          padding-bottom: 0px;
+      }
+  
+      .tema9{
+         color: white;
+         margin-top: 0px; 
+         margin-top: 0px;
+      }
+
+
+      
+
+
+    
+
+
+      
+    .box1{  
+      color:black;
+      padding: 50px;
+      padding-bottom: 20px;
+      background-color: white;
+      border-radius: 100px;
+      border: 1px solid black;
+      overflow: hidden;
+      margin-top: 10px;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    .textoderecha{
+      font-weight: bold;
+      text-align: right;
+      justify-content: right;
+      align-items: end;
+      align-content: end;
+      align-self: end;
+    }
+
+    .divp3{
+      font-size:x-large;
+    }
+
+    .quieroaprenderyenseñar{
+      font-weight: bold;
+      padding-left: 30px;
+      font-size: large;
+    }
+
+    .vermas{
+      background-color: darkorange;
+      padding: 6px;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: white;
+    }
+
+    .favorito{
+      background-color:blueviolet;
+      padding: 6px;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: white;
+    }
+
+    .comentarios{
+      padding: 6px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .box2{
+      color:black;
+      padding: 50px;
+      padding-bottom: 20px;
+      background-color: white;
+      border-radius: 100px;
+      border: 1px solid black;
+      overflow: hidden;
+      margin-top: 50px;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    .textoderecha{
+      font-weight: bold;
+      text-align: right;
+      justify-content: right;
+      align-items: end;
+      align-content: end;
+      align-self: end;
+    }
+
+    .divp3{
+      font-size:x-large;
+    }
+
+    .quieroaprenderyenseñar{
+      font-weight: bold;
+      padding-left: 30px;
+      font-size: large;
+    }
