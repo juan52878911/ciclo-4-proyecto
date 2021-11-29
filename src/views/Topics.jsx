@@ -69,7 +69,8 @@ class handleChangeComplete extends React.Component {
 
 
       <Row>
-          <Col class="caja1">
+          <Col class="externo1">
+          <div class="caja1">
                 <p>
                     <BsPaletteFill class={"icono1"} size={"60"} style={{textAlign:'center'}}></BsPaletteFill>
                  </p>
@@ -83,18 +84,18 @@ class handleChangeComplete extends React.Component {
                     Lorem ipsum, dolor sit amet
                 </p> 
             </div>
+            </div>
             </Col>
       </Row>
 
 
 
       <Row>
-          <Col class="external2">
-              <div class="caja2">
+          <Col class="externo2">
+            <div class="caja2">
                 <p>
                     <AiFillExperiment class={"icono2"} size={"60"} style={{textAlign:'center'}}></AiFillExperiment>
                  </p>
-            </div>
             <div class="tema2">
                  <h3 style={{textAlign:'center', fontSize:"lg"}}>
                     Ciencias
@@ -105,16 +106,17 @@ class handleChangeComplete extends React.Component {
                     Lorem ipsum, dolor sit amet
                 </p> 
             </div>
+            </div>
             </Col>
       </Row>
 
 
       <Row>
-          <Col class="external3"><div class="caja3">
+          <Col class="externo3">
+            <div class="caja3">
                 <p>
                     <BsEyeglasses class={"icono3"} size={"60"} style={{textAlign:'center'}}></BsEyeglasses>
                  </p>
-            </div>
             <div class="tema3">
                  <h3 style={{textAlign:'center', fontSize:"lg"}}>
                     Ciencias Sociales
@@ -123,7 +125,8 @@ class handleChangeComplete extends React.Component {
             <div class="textodescripcion3">
                 <p>
                     Lorem ipsum, dolor sit amet
-                </p> 
+                </p>
+            </div> 
             </div>
             </Col>
       </Row>
@@ -131,11 +134,11 @@ class handleChangeComplete extends React.Component {
 
 
       <Row>
-          <Col class="external4"><div class="caja4">
+          <Col class="externo4">
+              <div class="caja4">
                 <p>
                     <BsEggFried class={"icono4"} size={"60"} style={{textAlign:'center'}}></BsEggFried>
                  </p>
-            </div>
             <div class="tema4">
                  <h3 style={{textAlign:'center', fontSize:"lg"}}>
                     Cocina
@@ -146,17 +149,18 @@ class handleChangeComplete extends React.Component {
                     Lorem ipsum, dolor sit amet
                 </p> 
             </div>
+            </div>
             </Col>
       </Row>
 
 
 
       <Row>
-          <Col class="external5"><div class="caja5">
+          <Col class="externo5">
+            <div class="caja5">
                 <p>
                     <BsScissors class={"icono5"} size={"60"} style={{textAlign:'center'}}></BsScissors>
                  </p>
-            </div>
             <div class="tema5">
                  <h3 style={{textAlign:'center', fontSize:"lg"}}>
                     DIY
@@ -167,17 +171,18 @@ class handleChangeComplete extends React.Component {
                     Lorem ipsum, dolor sit amet
                 </p> 
             </div>
+            </div>
             </Col>
       </Row>
 
 
 
       <Row>
-          <Col class="external6"><div class="caja6">
+          <Col class="externo6">
+            <div class="caja6">
                 <p>
                     <BsKeyFill class={"icono6"} size={"60"} style={{textAlign:'center'}}></BsKeyFill>
                  </p>
-            </div>
             <div class="tema6">
                  <h3 style={{textAlign:'center', fontSize:"lg"}}>
                     Habilidades para la vida
@@ -188,17 +193,18 @@ class handleChangeComplete extends React.Component {
                     Lorem ipsum, dolor sit amet
                 </p> 
             </div>
+            </div>
             </Col>
       </Row>
 
 
 
       <Row>
-          <Col class="external7"><div class="caja7">
+          <Col class="externo7">
+            <div class="caja7">
                 <p>
                     <BsVectorPen class={"icono7"} size={"60"} style={{textAlign:'center'}}></BsVectorPen>
                  </p>
-            </div>
             <div class="tema7">
                  <h3 style={{textAlign:'center', fontSize:"lg"}}>
                     Literatura
@@ -209,17 +215,18 @@ class handleChangeComplete extends React.Component {
                     Lorem ipsum, dolor sit amet
                 </p> 
             </div>
+            </div>
             </Col>
       </Row>
 
 
 
       <Row>
-          <Col class="external8"><div class="caja8">
+          <Col class="externo8">
+            <div class="caja8">
                 <p>
                     <BsMusicNote class={"icono8"} size={"60"} style={{textAlign:'center'}}></BsMusicNote>
                  </p>
-            </div>
             <div class="tema8">
                  <h3 style={{textAlign:'center', fontSize:"lg"}}>
                     Música
@@ -230,6 +237,7 @@ class handleChangeComplete extends React.Component {
                     Lorem ipsum, dolor sit amet
                 </p> 
             </div>
+            </div>
             </Col>
       </Row>
 
@@ -237,11 +245,11 @@ class handleChangeComplete extends React.Component {
 
 
       <Row>
-          <Col class="external9"><div class="caja9">
+          <Col class="externo9">
+            <div class="caja9">
                 <p>
                     <BsAt class={"icono9"} size={"60"} style={{textAlign:'center'}}></BsAt>
                  </p>
-            </div>
             <div class="tema9">
                  <h3 style={{textAlign:'center', fontSize:"lg"}}>
                     Tecnología
@@ -251,6 +259,7 @@ class handleChangeComplete extends React.Component {
                 <p>
                     Lorem ipsum, dolor sit amet
                 </p> 
+            </div>
             </div>
             </Col>
       </Row>

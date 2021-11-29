@@ -19,6 +19,8 @@
   
  
     .caja1 {
+      display:inline-flexbox;
+      float:inline-start;
       color: white;
       background-color:darkgreen;
       margin: 0px;
@@ -49,24 +51,20 @@
 
 
     .caja2 {
+        display:inline-flexbox;
         color: white;
         background-color:deepskyblue;
         margin: 0px;
-        margin-bottom: 15px;
-        padding: 15px;
-        border-radius: 100px;
+        margin-top: 150px;
+        margin-bottom: 70px;
+        margin-left: 50px;
+        margin-right: 1000px;
+        padding: 20px;
+        border-radius: 30px;
+        text-align: center;
       }
   
-      .external2{
-          color:white;
-          background-color:deepskyblue;
-          padding: 20px;
-          border-radius:30px;
-          margin-top: 150px;
-          margin-left: 50px;
-          margin-right: 1000px;
-          text-align: center;
-      }
+      
   
       .icono2{
           margin-bottom: 0px;
@@ -87,21 +85,15 @@
         color: white;
         background-color:darkorange;
         margin: 0px;
-        margin-bottom: 15px;
-        padding: 15px;
-        border-radius: 100px;
+        margin-top: 150px;
+        margin-bottom: 70px;
+        margin-left: 50px;
+        margin-right: 1000px;
+        padding: 20px;
+        border-radius: 30px;
+        text-align: center;
       }
   
-      .external3{
-          color:white;
-          background-color:darkorange;
-          padding: 20px;
-          border-radius:30px;
-          margin-top: 150px;
-          margin-left: 50px;
-          margin-right: 1000px;
-          text-align: center;
-      }
   
       .icono3{
           margin-bottom: 0px;
@@ -121,20 +113,13 @@
         color: white;
         background-color:blue;
         margin: 0px;
-        margin-bottom: 15px;
-        padding: 15px;
-        border-radius: 100px;
-      }
-  
-      .external4{
-          color:white;
-          background-color:blue;
-          padding: 20px;
-          border-radius:30px;
-          margin-top: 150px;
-          margin-left: 50px;
-          margin-right: 1000px;
-          text-align: center;
+        margin-top: 150px;
+        margin-bottom: 70px;
+        margin-left: 50px;
+        margin-right: 1000px;
+        padding: 20px;
+        border-radius: 30px;
+        text-align: center;
       }
   
       .icono4{
@@ -159,20 +144,13 @@
         color: white;
         background-color:deeppink;
         margin: 0px;
-        margin-bottom: 15px;
-        padding: 15px;
-        border-radius: 100px;
-      }
-  
-      .external5{
-          color:white;
-          background-color:deeppink;
-          padding: 20px;
-          border-radius:30px;
-          margin-top: 150px;
-          margin-left: 50px;
-          margin-right: 1000px;
-          text-align: center;
+        margin-top: 150px;
+        margin-bottom: 70px;
+        margin-left: 50px;
+        margin-right: 1000px;
+        padding: 20px;
+        border-radius: 30px;
+        text-align: center;
       }
   
       .icono5{
@@ -196,20 +174,13 @@
         color: white;
         background-color:rgb(190, 5, 134);
         margin: 0px;
-        margin-bottom: 15px;
-        padding: 15px;
-        border-radius: 100px;
-      }
-  
-      .external6{
-          color:white;
-          background-color:rgb(190, 5, 134);
-          padding: 20px;
-          border-radius:30px;
-          margin-top: 150px;
-          margin-left: 50px;
-          margin-right: 1000px;
-          text-align: center;
+        margin-top: 150px;
+        margin-bottom: 70px;
+        margin-left: 50px;
+        margin-right: 1000px;
+        padding: 20px;
+        border-radius: 30px;
+        text-align: center;
       }
   
       .icono6{
@@ -233,20 +204,13 @@
         color: white;
         background-color:darksalmon;
         margin: 0px;
-        margin-bottom: 15px;
-        padding: 15px;
-        border-radius: 100px;
-      }
-  
-      .external7{
-          color:white;
-          background-color:darksalmon;
-          padding: 20px;
-          border-radius:30px;
-          margin-top: 150px;
-          margin-left: 50px;
-          margin-right: 1000px;
-          text-align: center;
+        margin-top: 150px;
+        margin-bottom: 70px;
+        margin-left: 50px;
+        margin-right: 1000px;
+        padding: 20px;
+        border-radius: 30px;
+        text-align: center;
       }
   
       .icono7{
@@ -267,21 +231,15 @@
 
       .caja8 {
         color: white;
+        background-color:rgba(128, 255, 0, 0.897);
         margin: 0px;
-        margin-bottom: 15px;
-        padding: 15px;
-        border-radius: 100px;
-      }
-  
-      .external8{
-          color:white;
-          background-color:rgba(128, 255, 0, 0.815);
-          padding: 20px;
-          border-radius:30px;
-          margin-top: 150px;
-          margin-left: 50px;
-          margin-right: 1000px;
-          text-align: center;
+        margin-top: 150px;
+        margin-bottom: 70px;
+        margin-left: 50px;
+        margin-right: 1000px;
+        padding: 20px;
+        border-radius: 30px;
+        text-align: center;
       }
   
       .icono8{
@@ -302,10 +260,15 @@
 
       .caja9 {
         color: white;
+        background-color:rgba(105, 105, 105, 0.534);
         margin: 0px;
-        margin-bottom: 15px;
-        padding: 15px;
-        border-radius: 100px;
+        margin-top: 150px;
+        margin-bottom: 70px;
+        margin-left: 50px;
+        margin-right: 1000px;
+        padding: 20px;
+        border-radius: 30px;
+        text-align: center;
       }
   
       .external9{
