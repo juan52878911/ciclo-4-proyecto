@@ -50,7 +50,7 @@ class handleChangeComplete extends React.Component {
     <Container>
       <Row>
         <Col>
-        <h1 class="menudeconslta" style={{textAlign:'center', background:'##e5d3ec'}}>
+        <h1 class="menudeconsulta" style={{textAlign:'center'}}>
           Menú de consulta: 
         </h1>
         </Col>
