@@ -55,7 +55,6 @@
 
 
     .caja2 {
-        display:inline-flexbox;
         color: white;
         background-color:deepskyblue;
         height:300px;
@@ -117,7 +116,7 @@
 
 
 
-      .segundaila{
+      .segundafila{
         align-self: center;
     }
 
@@ -125,11 +124,13 @@
       .caja4 {
         color: white;
         background-color:blue;
+        height:300px;
+        width:300px;
         margin: 0px;
         margin-top: 550px;
         margin-bottom: 70px;
-        margin-left: 50px;
-        margin-right: 1000px;
+        margin-left: 170px;
+        margin-right: 10px;
         padding: 20px;
         border-radius: 30px;
         text-align: center;
@@ -156,11 +157,13 @@
       .caja5 {
         color: white;
         background-color:deeppink;
+        height:300px;
+        width:300px;
         margin: 0px;
-        margin-top: 150px;
+        margin-top: 550px;
         margin-bottom: 70px;
-        margin-left: 50px;
-        margin-right: 1000px;
+        margin-left: 45px;
+        margin-right: 10px;
         padding: 20px;
         border-radius: 30px;
         text-align: center;
@@ -186,11 +189,13 @@
       .caja6 {
         color: white;
         background-color:rgb(190, 5, 134);
+        height:300px;
+        width:300px;
         margin: 0px;
-        margin-top: 150px;
+        margin-top: 550px;
         margin-bottom: 70px;
         margin-left: 50px;
-        margin-right: 1000px;
+        margin-right: 10px;
         padding: 20px;
         border-radius: 30px;
         text-align: center;
@@ -217,7 +222,7 @@
         color: white;
         background-color:darksalmon;
         margin: 0px;
-        margin-top: 150px;
+        margin-top: 1000px;
         margin-bottom: 70px;
         margin-left: 50px;
         margin-right: 1000px;
