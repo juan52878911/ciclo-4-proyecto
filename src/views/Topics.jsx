@@ -67,7 +67,7 @@ class handleChangeComplete extends React.Component {
 
 
 
-
+      <div class="primerafila" style={{display:'inline-flex', float:"left", width:"10px"}}>
       <Row>
           <Col class="externo1">
           <div class="caja1">
@@ -130,9 +130,11 @@ class handleChangeComplete extends React.Component {
             </div>
             </Col>
       </Row>
+      </div>
 
 
 
+      
       <Row>
           <Col class="externo4">
               <div class="caja4">
