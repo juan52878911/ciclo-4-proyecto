@@ -11,6 +11,7 @@ import {BsPersonCircle} from "react-icons/bs";
 import '../views/LoguedHome.css';
 import { Block } from '@mui/icons-material';
 
+
 //import '/Ciclo 4/Trueque Mental/ciclo-4-proyecto-main/src/views/LoguedHome.css';
 //import './LoguedHome.css';
 //import '../LoguedHome.css';

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from "react";
 
 import {
     BrowserRouter as Router,
@@ -15,12 +16,26 @@ import { LoguedHome } from './views/LoguedHome';
 import { Topics } from './views/Topics';
 import { UserProvider } from './data/UserContext';
 import { Profile } from './views/Profile';
+import { Thermostat } from '@mui/icons-material';
 
 export default function App() {
     //render
+
+   /* window.onload=function() {
+        const topicUrl=window.location.href.indexOf('/topics');
+        if (topicUrl) {
+            document.body.style.backgroundColor='black'
+        }
+        else{
+            document.body.style.backgroundColor='#e5d3ec!important' 
+        }
+    }; */
+
+    
+
     return (
         <UserProvider>
-            <Router>
+            <Router setIsCommonBody>
                 <Navbar />
 
                 <Switch>

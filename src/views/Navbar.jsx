@@ -56,7 +56,7 @@ export function Navbar() {
         <AppBar position="static">
             <Toolbar>
                 <Typography component="div" sx={{ flexGrow: 1 }}>
-                    <Button onClick={() => history.push('/')} color="inherit" sx={{ fontSize: 20 }}>
+                    <Button onClick={() => {history.push('/');document.body.style.backgroundColor='#e5d3ec'}} color="inherit" sx={{ fontSize: 20 }}>
                         Trueque mental 🧠
                     </Button>
                 </Typography>
@@ -131,10 +131,10 @@ export function Navbar() {
                     </div>
                     :
                     <Stack direction="row" spacing={2}>
-                        <Button onClick={() => history.push('/login')} color="inherit">Ingresar</Button>
-                        <Button onClick={() => history.push('/signin')} variant="contained" color="warning">Registrarse</Button>
-                        <Button onClick={() => history.push('/loguedHome')} variant="contained" color="secondary">Foro</Button>
-                        <Button onClick={() => history.push('/Topics')} variant= "contained" color="success">búsqueda de temas</Button>
+                        <Button onClick={() => {history.push('/login');document.body.style.backgroundColor='#e5d3ec'}} color="inherit">Ingresar</Button>
+                        <Button onClick={() => {history.push('/signin');document.body.style.backgroundColor='#e5d3ec'}} variant="contained" color="warning">Registrarse</Button>
+                        <Button onClick={() => {history.push('/loguedHome');document.body.style.backgroundColor='#e5d3ec'}} variant="contained" color="secondary">Foro</Button>
+                        <Button onClick={() => {history.push('/topics');document.body.style.backgroundColor='black'}} variant= "contained" color="success">Búsqueda de temas</Button>
                     </Stack>
                 }
             </Toolbar>

@@ -1,22 +1,4 @@
- .todalpagina{
-     background-color: black!important;
- }
- 
-
-.Totalpagina{
-  background-color: black!important;  
-}
-
- .colorfondo1{
-     background-color: black!important;
- }
- 
- 
- .colorfondo{
-     background-color: black!important;
- }
- 
- .menudeconsulta {
+  .menudeconsulta {
     color:white;
     background-color: black;
     padding: 50px;
@@ -245,6 +227,8 @@
         margin-left:0px;
         margin-right: 50px;
       }
+
+
 
       .externo1{
         background-color: black;
